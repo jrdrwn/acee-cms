@@ -1,5 +1,8 @@
 const parse = require("pg-connection-string").parse;
-const config = parse(process.env.DATABASE_URL);
+const config = parse(
+  process.env.DATABASE_URL ||
+    "postgres://jordi:jordiirawan@localhost:5432/aceedb"
+);
 module.exports = ({ env }) => ({
   connection: {
     client: "postgres",
