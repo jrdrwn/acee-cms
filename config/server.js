@@ -4,5 +4,5 @@ module.exports = ({ env }) => ({
   app: {
     keys: env.array("APP_KEYS"),
   },
-  url: env("URL", `http://0.0.0.0:1337`),
+  url: env("CYCLIC_URL", `http://0.0.0.0:1337`),
 });
