@@ -1,0 +1,34 @@
+{
+  "name": "acee-cms",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-documentation": "4.5.6",
+    "@strapi/plugin-i18n": "4.5.6",
+    "@strapi/plugin-users-permissions": "4.5.6",
+    "@strapi/provider-email-nodemailer": "^4.5.6",
+    "@strapi/provider-upload-cloudinary": "^4.5.6",
+    "@strapi/strapi": "4.5.6",
+    "pg": "8.6.0",
+    "strapi-plugin-transformer": "^2.2.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "e0cc9d37-af38-4b67-aeaf-25390cd45497"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
