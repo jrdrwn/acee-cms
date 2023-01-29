@@ -21,9 +21,6 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user"
-    },
-    "accept": {
-      "type": "boolean"
     }
   }
 }
